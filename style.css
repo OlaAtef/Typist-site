@@ -1,6 +1,6 @@
 :root{
     --first-color: #000000;
-    --second-color: #ff5e00;
+    --second-color: #00d9fff6;
     --third-color: #fff;
 }
 
@@ -90,7 +90,7 @@ nav{
 .FixedHeader{
     background: var(--third-color);
     box-shadow: 0 0 10px 3px var(--second-color);
-    opacity: .6;
+    opacity: .8;
 }
 .nav-bar{
     display: flex;
@@ -99,8 +99,8 @@ nav{
     flex-wrap: wrap;
 }
 nav .logo img{
-    width: 90px;
-    height: 60px;
+    width: 80px;
+    height: 53px;
     border-top-left-radius: 38px;
     border-top-right-radius: 38px;
     border-bottom-right-radius: 10px;
@@ -114,8 +114,9 @@ nav ul{
     padding: 17px 0;
 }
 nav ul li a{
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
     color: var(--first-color);
     margin-left: 30px;
     position: relative;
@@ -177,7 +178,6 @@ nav #toggle-mode{
 nav #toggle-mode:hover{
     color: var(--first-color);
     background-color: var(--third-color);
-    border-color: var(--first-color);
 }
 #header .container .home-text {
     display: flex;
@@ -578,7 +578,7 @@ nav #toggle-mode:hover{
 #portfolio .work-list .work .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.8) ,#be4600);
+    background: linear-gradient(rgba(0,0,0,0.9) ,#00d9ffe8);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -967,13 +967,17 @@ footer .copy-right a{
         padding: 0 1.2rem;
     }
     nav .logo img{
-        width: 65px;
-        height: 43px;
+        width: 57px;
+        height: 41px;
     }
     nav #toggle-mode,
     nav .container .nav-bar #menu-icon{
         font-size: .9rem;
         padding: .3rem ;
+    }
+    nav #toggle-mode:hover{
+        background-color: transparent;
+        box-shadow: 0 0 0 transparent;
     }
     nav #toggle-mode.ar{
         font-size: 16px;
