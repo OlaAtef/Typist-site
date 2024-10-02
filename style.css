@@ -974,6 +974,7 @@ footer .copy-right a{
     nav .container .nav-bar #menu-icon{
         font-size: .9rem;
         padding: .3rem ;
+        border: none;
     }
     nav #toggle-mode:hover{
         background-color: transparent;
