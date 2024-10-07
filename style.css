@@ -1,6 +1,6 @@
 :root{
     --first-color: #000000;
-    --second-color: #00d9fff6;
+    --second-color: #00aeff;
     --third-color: #fff;
 }
 
@@ -45,7 +45,7 @@ body{
 }
 .primary-span{
     color: var(--second-color);
-    font-size: 2.4rem;
+    font-size: 2.1rem;
 }
 
 #header {
@@ -89,7 +89,7 @@ nav{
 }
 .FixedHeader{
     background: var(--third-color);
-    box-shadow: 0 0 10px 3px var(--second-color);
+    box-shadow: 0 0 8px 2px var(--second-color);
     opacity: .8;
 }
 .nav-bar{
@@ -192,7 +192,7 @@ nav #toggle-mode:hover{
     z-index: 1;
 }
 #header .container .home-text h3{
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     letter-spacing: 1px;
     margin:0 0 .5rem;
     opacity: 0;
@@ -218,7 +218,7 @@ nav #toggle-mode:hover{
 }
 
 #header .container .home-text .movt h3{
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     font-weight: 700;
     position: relative;
     color: transparent;
@@ -255,7 +255,7 @@ nav #toggle-mode:hover{
     border: 2px solid var(--second-color);
     border-radius: 10px;
     box-shadow:0 0 .9rem var(--second-color) ;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 1px;
     padding: .8rem 2.5rem;
@@ -267,7 +267,6 @@ nav #toggle-mode:hover{
 }
 .btn:hover{
     color: var(--second-color);
-    font-size: 1.35rem;
 }
 .btn::before{
     content: '';
@@ -505,8 +504,8 @@ nav #toggle-mode:hover{
 #about .btn{
     margin: 2rem auto 1rem;
     padding: 0;
-    width: 230px;
-    height: 60px;
+    width: 200px;
+    height: 53px;
 }
 
 /* about section end */
@@ -936,6 +935,9 @@ footer .copy-right a{
         top: 22px;
         right: 27px;
     }
+    .FixedHeader{
+        box-shadow: 0 0 5px 1px var(--second-color);
+    }
     #header .container .home-text h3{
         font-size: 1.2rem;
     }
@@ -950,15 +952,22 @@ footer .copy-right a{
         font-size: 1.4rem;
     }
     .btn{
-        font-size: .9rem;
-        padding: .8rem 1.2rem;
-    }
-    .btn:hover{
-        font-size: .9rem;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        box-shadow: 0 0 .3rem var(--second-color);
     }
     .back-arrow {
         font-size: .8rem;
         padding: .8rem .9rem;
+    }
+    .back-arrow {
+        font-size: .7rem;
+        padding: .6rem .7rem;
+        bottom: 3%;
+        right: 2%;
+    }
+    .back-arrow:hover{
+        transform: translateY(0);
     }
     .sub-title {
         font-size: 25px;
@@ -999,8 +1008,9 @@ footer .copy-right a{
         font-size: 14px;
     }
     #about .btn {
-        width: 140px;
+        width: 135px;
         height: 40px;
+        font-size: 13.5px;
     }
     #services .services-list{
         grid-template-columns: repeat(1, 1fr);
@@ -1038,7 +1048,7 @@ footer .copy-right a{
         width: 50px;
     }
     #review .box-container .box p{
-        font-size: 15px;
+        font-size: 14px;
         padding: .3rem  0;
     }
     #review .box-container .box h3{
@@ -1052,16 +1062,16 @@ footer .copy-right a{
         margin-bottom: 19px;
     }
     #contact .row .col .con-icon{
-        font-size: 29px;
+        font-size: 27px;
     }
     #contact .row .col a{
-        font-size: 18px;
+        font-size: 16.3px;
     }
     #contact .social-icons-contact #icons-contact{
-        font-size: 23px;
+        font-size: 21px;
     }
     #contact h3{
-        font-size: 19px;
+        font-size: 17px;
         letter-spacing: .5px;
     }
     #contact .row {
@@ -1082,11 +1092,11 @@ footer .copy-right a{
         width: 150px;
     }
     footer .copy-right{
-        font-size: 14px;
-        letter-spacing: .5px;
+        font-size: 13.3px;
+        letter-spacing: .3px;
         margin: 0;
     }
     footer .copy-right a{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

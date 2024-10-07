@@ -797,6 +797,9 @@ footer .copy-right a{
         left: 56px;
         cursor: pointer;
     } 
+    .FixedHeader{
+        box-shadow: 0 0 5px 1px var(--second-color);
+    }
     #header .container .home-text h3 {
         font-size: 1.7rem;
     }
@@ -808,7 +811,8 @@ footer .copy-right a{
     }
     .btn {
         font-size: 1.1rem;
-        padding: .8rem 2.3rem;
+        padding: .7rem 1rem;
+        box-shadow: 0 0 .3rem var(--second-color);
     }
     #services .services-list,
     #portfolio .work-list,
@@ -830,7 +834,9 @@ footer .copy-right a{
         min-width: 100%;
     }
     #about .btn {
-        width: 180px;
+        width: 135px;
+        height: 40px;
+        font-size: 13.5px;
     }
     #review .box-container .box p {
         font-size: 17px;
@@ -913,8 +919,13 @@ footer .copy-right a{
         padding: .7rem 1.7rem;
     }
     .back-arrow {
-        font-size: .8rem;
-        padding: .8rem .9rem;
+        font-size: .7rem;
+        padding: .6rem .7rem;
+        bottom: 3%;
+        right: 2%;
+    }
+    .back-arrow:hover{
+        transform: translateY(0);
     }
     .languages{
         right: 55%;
@@ -978,6 +989,10 @@ footer .copy-right a{
     #portfolio .work-list .work .layer h3{
         font-size: 20px;
     }
+    #review .box-container .box p{
+        font-size: 15px;
+        padding: .3rem  0;
+    }
     #contact .social-icons-contact #icons-contact{
         font-size: 23px;
     }
@@ -985,6 +1000,25 @@ footer .copy-right a{
         font-size: 19px;
         letter-spacing: .5px;
         margin-bottom: 15px;
+    }
+    #contact .row {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        margin: 35px auto;
+    }
+    #contact .row .col .con-icon{
+        font-size: 27px;
+    }
+    #contact .row .col a{
+        font-size: 16.3px;
+    }
+    #contact .social-icons-contact #icons-contact{
+        font-size: 21px;
+    }
+    #contact h3{
+        font-size: 17px;
+        letter-spacing: .5px;
     }
     #contact .row {
         display: block;
@@ -1004,11 +1038,11 @@ footer .copy-right a{
         width: 150px;
     }
     footer .copy-right{
-        font-size: 14px;
-        letter-spacing: .5px;
+        font-size: 13.3px;
+        letter-spacing: .3px;
         margin: 0;
     }
     footer .copy-right a{
-        font-size: 16px;
+        font-size: 14px;
     }
     }
