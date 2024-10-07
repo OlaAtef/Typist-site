@@ -1,6 +1,6 @@
 :root{
     --first-color: #000000;
-    --second-color: #00d9fff6;
+    --second-color: #00aeff;
     --third-color: #fff;
 }
 body{
@@ -86,7 +86,7 @@ nav{
 }
 .FixedHeader{
     background: var(--third-color);
-    box-shadow: 0 0 10px 3px var(--second-color);
+    box-shadow: 0 0 8px 2px var(--second-color);
     opacity: .8;
 }
 .nav-bar{
@@ -248,7 +248,7 @@ nav #toggle-mode:hover{
     border: 2px solid var(--second-color);
     border-radius: 10px;
     box-shadow:0 0 .9rem var(--second-color) ;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     padding: .8rem 2.5rem;
     margin-top: 1rem;
@@ -259,7 +259,6 @@ nav #toggle-mode:hover{
 }
 .btn:hover{
     color: var(--second-color);
-    font-size: 1.35rem;
 }
 .btn::before{
     content: '';
@@ -492,8 +491,8 @@ nav #toggle-mode:hover{
 #about .btn{
     margin: 2rem auto 1rem;
     padding: 0;
-    width: 230px;
-    height: 60px;
+    width: 200px;
+    height: 53px;
 }
 /* about section end */
 /* services section start */
@@ -563,7 +562,7 @@ nav #toggle-mode:hover{
 #portfolio .work-list .work .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.9) ,#00d9ffe8);
+    background: linear-gradient(rgba(0,0,0,0.9) ,#00aeff);
     border-radius: 10px;
     position: absolute;
     left: 0;
