@@ -588,41 +588,6 @@ nav #toggle-mode:hover{
     color: #ccc;
 }
 /* portfolio section end */
-/* Pricing section start */
-#pricing .container .pricing-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30PX;
-    text-align: center;
-}
-#pricing .container .pricing-list .price-box{
-    padding: 4rem 2rem;
-    border: 2.4px solid var(--third-color);
-    border-radius: 15px;
-    transition: all ease .4s;
-}
-#pricing .container .pricing-list .price-box:hover{
-    border-color: var(--second-color);
-    transform: translateY(-10px);
-}
-#pricing .container .pricing-list .price-box h3{
-    font-size: 27px;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    text-transform: uppercase;
-}
-#pricing .container .pricing-list .price-box .price{
-    color: var(--third-color);
-    font-size: 25px;
-    font-weight: 600;
-    display: block;
-}
-
-#pricing .container .pricing-list .price-box .btn{
-    height: 50px;
-    margin-top: 2.3rem;
-}
-/* Pricing section end */
 /* REVIEW START ................ */
 #review .box-container{
     display: grid;
@@ -847,7 +812,6 @@ footer .copy-right a{
     }
     #services .services-list,
     #portfolio .work-list,
-    #pricing .container .pricing-list,
     #review .box-container {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
@@ -867,12 +831,6 @@ footer .copy-right a{
     }
     #about .btn {
         width: 180px;
-    }
-    #pricing .container .pricing-list .price-box h3 {
-        font-size: 25px;
-    }
-    #pricing .container .pricing-list .price-box .price {
-        font-size: 22px;
     }
     #review .box-container .box p {
         font-size: 17px;
@@ -963,7 +921,6 @@ footer .copy-right a{
     } 
     #services .services-list,
     #portfolio .work-list,
-    #pricing .container .pricing-list,
     #review .box-container {
         grid-template-columns: repeat(1, 1fr);
     } 
@@ -1020,20 +977,6 @@ footer .copy-right a{
     }
     #portfolio .work-list .work .layer h3{
         font-size: 20px;
-    }
-    .container .pricing-list .price-box {
-        padding: .5rem;
-    }
-    #pricing .container .pricing-list .price-box h3 {
-        font-size: 19px;
-    }
-    #pricing .container .pricing-list .price-box .price {
-        font-size: 16px;
-    }
-    #pricing .container .pricing-list .price-box .btn{
-        height: 40px;
-        font-size: 16px;
-        margin-top:1.7rem;
     }
     #contact .social-icons-contact #icons-contact{
         font-size: 23px;
