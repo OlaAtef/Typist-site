@@ -226,7 +226,7 @@ nav #toggle-mode:hover{
     width: 0%;
     height: 100%;
     color: var(--second-color);
-    border-left: 4px solid var(--second-color);
+    border-right: 4px solid var(--second-color);
     overflow: hidden;
     animation: animate 4s linear infinite;
 }
