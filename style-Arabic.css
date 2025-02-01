@@ -77,7 +77,7 @@ section{
 nav{
     background: transparent;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -96,8 +96,8 @@ nav{
     flex-wrap: wrap;
 }
 nav .logo img{
-    width: 80px;
-    height: 53px;
+    width: 64px;
+    height: 49px;
     border-top-left-radius: 38px;
     border-top-right-radius: 38px;
     border-bottom-right-radius: 10px;
@@ -111,8 +111,8 @@ nav ul{
     padding: 17px 0;
 }
 nav ul li a{
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     color: var(--first-color);
     margin-left: 30px;
     position: relative;
@@ -158,7 +158,7 @@ nav .links{
     gap: 15px;
 }
 nav #toggle-mode{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:var(--first-color);
     background-color: transparent;
     border: none;
@@ -188,7 +188,7 @@ nav #toggle-mode:hover{
     z-index: 1;
 }
 #header .container .home-text h3{
-    font-size: 2.1rem;
+    font-size: 24px;
     margin:0 0 .5rem;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -212,7 +212,7 @@ nav #toggle-mode:hover{
 }
 
 #header .container .home-text .movt h3{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     position: relative;
     color: transparent;
@@ -303,7 +303,7 @@ nav #toggle-mode:hover{
     justify-content: space-between;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: var(--third-color);
     text-align: center;
@@ -332,7 +332,7 @@ nav #toggle-mode:hover{
     flex-basis: 55%;
 }
 #about .row .about-text p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.9;
     font-family: sans-serif;
     color: var(--third-color);
@@ -364,8 +364,8 @@ nav #toggle-mode:hover{
     width: 50%;
 }
 #about .tab-contents.active-tab h4{
-    font-size: 23px;
-    color:var(--third-color) ;;
+    font-size: 21px;
+    color:var(--third-color);
     text-transform: uppercase;
     margin-bottom: 3px;
 }
@@ -402,7 +402,7 @@ nav #toggle-mode:hover{
     margin-left: 10px;
 }
 #about .tab-contents.active-tab ul li .check-icon{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--third-color);
     margin-left: 10px;
 }
@@ -491,7 +491,7 @@ nav #toggle-mode:hover{
 #about .btn{
     margin: 2rem auto 1rem;
     padding: 0;
-    width: 200px;
+    width: 165px;
     height: 53px;
 }
 /* about section end */
@@ -525,12 +525,12 @@ nav #toggle-mode:hover{
     margin-bottom: 30px;
 }
 #services .services-list div h2{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 #services .services-list div p{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     font-family: sans-serif;
     margin-bottom: 20px;
@@ -601,19 +601,19 @@ nav #toggle-mode:hover{
     width: 80px;
 }
 #review .box-container .box p{
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 1.8;
     color: var(--third-color);
     padding: .3rem 0 .5rem 0;
 }
 #review .box-container .box h3{
-    font-size: 27px;
+    font-size: 24px;
     color: var(--third-color);
     padding: 1rem 0;
 }
 #review .box-container .box .stars{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: .5rem;
     color:var(--second-color);
 }
@@ -628,7 +628,7 @@ nav #toggle-mode:hover{
     text-align: center;
 }
 #contact h3{
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--third-color);
     margin-bottom: 40px;
@@ -659,11 +659,11 @@ nav #toggle-mode:hover{
 }
 #contact .row .col .con-icon{
     color: var(--second-color);
-    font-size: 33px;
+    font-size: 30px;
     margin-bottom: 1.7rem;
 }
 #contact .row .col a{
-    font-size: 22px;
+    font-size: 17px;
     color: var(--third-color);
     transition: all ease .3s;
 }
@@ -671,7 +671,7 @@ nav #toggle-mode:hover{
     color: var(--second-color);
 }
 #contact .social-icons-contact{
-    width: 270px;
+    width: 260px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -679,7 +679,7 @@ nav #toggle-mode:hover{
     margin-top: 1rem;
 }
 #contact .social-icons-contact #icons-contact{
-    font-size: 28px;
+    font-size: 24px;
     color: var(--third-color);
     transition: all ease .4s;
 }
@@ -693,12 +693,12 @@ nav #toggle-mode:hover{
 footer .copy-right{
     width: 100%;
     text-align: center;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 600;
-    letter-spacing: 1px;
-    padding: 20px 0;
+    letter-spacing: .3px;
+    padding: 20px 5px;
     margin-top: 20px;
-    background: #1b1a1a7c ;
+    background: #1b1a1a7c;
     color: var(--third-color);
 }
 footer .copy-right a{
@@ -842,12 +842,12 @@ footer .copy-right a{
         padding: .3rem 0 1rem 0;
     }
     #review .box-container .box h3 {
-        font-size: 25px;
+        font-size: 21px;
         color: var(--third-color);
         padding: 1rem 0;
     }
     #review .box-container .box .stars {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     #contact h3{
         font-size: 24px;
@@ -897,7 +897,7 @@ footer .copy-right a{
         box-shadow: 0 0 0 transparent;
     }
     nav #toggle-mode.en{
-        font-size: 16px;
+        font-size: 14px;
     }
     nav .container .nav-bar #close-menu {
         font-size: 20px;
@@ -939,7 +939,7 @@ footer .copy-right a{
         margin-right: 7px;
     }  
     .sub-title {
-        font-size: 27px;
+        font-size: 24px;
     }
     #about .tab-contents.active-tab{
         display: block;
@@ -980,10 +980,10 @@ footer .copy-right a{
         margin-bottom: 20px;
     }
     #services .services-list div h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     #services .services-list div p {
-        font-size: 14px;
+        font-size: 13.5px;
     }
     #portfolio .work-list .work .layer h3{
         font-size: 20px;
@@ -1010,13 +1010,13 @@ footer .copy-right a{
         font-size: 27px;
     }
     #contact .row .col a{
-        font-size: 16.3px;
+        font-size: 14.5px;
     }
     #contact .social-icons-contact #icons-contact{
         font-size: 21px;
     }
     #contact h3{
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: .5px;
     }
     #contact .row {
@@ -1037,11 +1037,11 @@ footer .copy-right a{
         width: 150px;
     }
     footer .copy-right{
-        font-size: 13.3px;
+        font-size: 13px;
         letter-spacing: .3px;
         margin: 0;
     }
     footer .copy-right a{
-        font-size: 14px;
+        font-size: 13px;
     }
     }
